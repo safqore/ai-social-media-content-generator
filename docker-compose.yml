@@ -1,0 +1,10 @@
+services:
+  ai-smcg:
+    container_name: ai-smcg-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/ai-smcg
+    ports:
+      - "8888:8888"
