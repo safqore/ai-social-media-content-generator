@@ -2,12 +2,14 @@ name: ai-smcg-env
 channels:
   - conda-forge
   - defaults
+  - pytorch # PyTorch channel
 dependencies:
   - python=3.12
-  # - numpy
-  # - matplotlib
-  # - jupyterlab
-  # - graphviz
+  - langchain
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly # Use this for CPU-only installation; replace with cudatoolkit=11.1 for GPU support
   - pip
   - pip:
     # - python-dotenv
