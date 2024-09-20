@@ -42,3 +42,8 @@ docker-compose down
 ```
 
 if wanting to use JupyterLab instead of VSCode, simply nativate to: http://localhost:8888/
+
+## Data
+
+### Social Media Sentiment Analysis
+Dataset obtained from: https://www.kaggle.com/datasets/abdullah0a/social-media-sentiment-analysis-dataset
