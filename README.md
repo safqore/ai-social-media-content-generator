@@ -19,7 +19,7 @@ cd ai-smcg-environment
 From Git Bash or the terminal, navigate to the root directory of the cloned repository and run the following command to start the Docker container using Docker Compose:
 
 ```sh
-docker-compose up --build
+docker compose up --build
 ```
 
 ### 3. Open in VSCode
