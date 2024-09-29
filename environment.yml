@@ -3,8 +3,9 @@ channels:
   - conda-forge
   - defaults
   - pytorch # PyTorch channel
+  - sfe1ed40
 dependencies:
-  - python=3.12
+  - python
   - langchain
   - pytorch
   - torchvision
