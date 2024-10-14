@@ -19,7 +19,7 @@ cd ai-smcg-environment
 From Git Bash or the terminal, navigate to the root directory of the cloned repository and run the following command to start the Docker container using Docker Compose:
 
 ```sh
-docker-compose up --build
+docker compose up --build
 ```
 
 ### 3. Open in VSCode
@@ -42,3 +42,8 @@ docker-compose down
 ```
 
 if wanting to use JupyterLab instead of VSCode, simply nativate to: http://localhost:8888/
+
+## Data
+
+### Social Media Sentiment Analysis
+Dataset obtained from: https://www.kaggle.com/datasets/abdullah0a/social-media-sentiment-analysis-dataset
